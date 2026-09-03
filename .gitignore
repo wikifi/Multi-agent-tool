@@ -1,0 +1,28 @@
+# Local environment
+.env
+.env.*
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor and local tool settings
+.vscode/
+.idea/
+
+# Streamlit local state
+.streamlit/
+
+# OS generated files
+.DS_Store
+Thumbs.db
